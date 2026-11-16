@@ -1,7 +1,7 @@
 name = "Primailty Check Function"
 version = "0.1.0"
 keywords = ["math"]
-defaultTargets = ["«Primailty Check Function»"]
+defaultTargets = ["«Primailty Check Function»", "Document"]
 
 [leanOptions]
 pp.unicode.fun = true # pretty-prints `fun a ↦ b`
@@ -16,3 +16,7 @@ rev = "v4.36.0-rc2"
 
 [[lean_lib]]
 name = "«Primailty Check Function»"
+
+# Formalization accompanying document.tex (verification file, added by the review)
+[[lean_lib]]
+name = "Document"
